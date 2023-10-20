@@ -1,6 +1,5 @@
 numbers = []
 tot = 0
-dig = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 print('*Enter numbers to find the average!*\n*Enter [E] to exit*')
 try:
     while True:
@@ -13,7 +12,7 @@ try:
         else:
             print("This number has already been entered earlier!")
 except ValueError:
-    if num == 'e':
+    if num in ['e','E']:
         print("\nThankyou!")
     else:
         print("\nInvalid input!")
