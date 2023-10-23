@@ -1,0 +1,27 @@
+ How to install ROS Noetic?
+    - ROS Noetic should be installed in Ubuntu 20.04
+    - The installation instructions for Ubuntu 20.04 can be found
+      on the official website: https://wiki.ros.org/ROS/Installation
+    - All the commands for the below mentioned instructions
+      can be found on the website as well
+    - Catkin workspace should be made
+    - In that workspace, a package is to be made
+    - Run the pre-made package and node to check if it's printing
+      necessary output
+
+How to run my code?
+    - Create a new package in your workspace and a folder named "src" in it aswell
+    - In the "src" folder, add these code files
+    - Modify the "CMakeLlists.txt" present in the package folder, change dependency names
+    - Write the command "catkin_make" in your workspace directory
+    - Turn on the master with the command "roscore"
+    - Then simply run the "publisher" and "subscriber" nodes in 2 different terminals
+
+What this subscriber-publisher system does?
+    - The publisher node is a node that publishes a headline onto the topic "News"
+    - The data it uses is from the "subpub/headline", which has a string field named "headline"
+    - The subscriber node is subscribed to the topic "News" and hence receives the message published
+      by the publisher
+    - When this node receives the message it callbacks with the data received.
+    - The data being transferred is a News-headline
+    - The working video is attached in the Google form given
