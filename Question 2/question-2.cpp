@@ -11,7 +11,7 @@ int main()
     double x = 0, y = 0;
     double vdtArray[3][3];
 
-    // taking user input of the 2D array - 
+    // taking user input of the 2D array -
     // consisting of all the dimensions
     cout << "\n*Enter the values of Velocity, Dimension and Time as an elements of a row!*\n";
     for (i = 0; i <= 2; ++i)
@@ -23,7 +23,8 @@ int main()
         }
     }
 
-    // calculating the position of the particle
+    // calculating the position of the particle -
+    // using the formula [ current_position + velocity * cos(angle) * time ]
     for (i = 0; i <= 2; ++i)
     {
         double velocity = vdtArray[i][0];
