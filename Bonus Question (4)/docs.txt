@@ -1,0 +1,5 @@
+Instructions:
+    - Make all the necessary connections in the Tinkercad website.
+    - Paste the source code attached with this file onto the Tinkercad website.
+    - To check if the LED is working, make the final value in the for loop to 95
+      or something above 68 degrees.
